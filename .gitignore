@@ -1,0 +1,19 @@
+# Node modules
+frontend/node_modules/
+backend/node_modules/
+
+# Logs
+frontend/logs
+frontend/*.log
+backend/logs
+backend/*.log
+
+# Environment variables
+frontend/.env
+backend/.env
+
+# Build directories
+frontend/dist/
+frontend/build/
+backend/dist/
+backend/build/

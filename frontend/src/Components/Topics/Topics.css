@@ -1,0 +1,106 @@
+.topics-page {
+    margin-top: 10px;
+    padding: 20px;
+    color: black;
+    margin-bottom: 20%;
+  }
+  
+  .topics-page h1 {
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .course-data {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 20px;
+    margin: 40px;
+    margin-bottom: 50px;
+    border-width: 2px;
+    border-radius: 5px;
+  }
+  .course-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding:1.5%;
+  }
+  .course-desc p {
+    text-align: justify;
+  }
+  .title {
+    cursor: pointer;
+  }
+  .info {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 15px;
+    border-width: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .sub-btn-area {
+    display: flex;
+    margin-right: 20px;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 10px;
+    border-width: 2px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sub-btn-area:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+  }
+
+  .dropdown-btn{
+    display: flex;
+    flex-direction: row;
+    align-items:end;
+  }
+  .table-area {
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-width: 2px;
+    border-radius: 5px;
+    overflow: auto;
+    margin: 0 40px;
+  }
+  .topics-table {
+    width: 100%;
+    border-collapse: collapse;
+    
+  }
+  
+  .topics-table th, .topics-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .topics-table th {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  .topics-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .topics-table tr:hover {
+    background-color: #ddd;
+  }
+
+  .table-data {
+    display:flex;
+    align-items:center; 
+    justify-content:center;
+  }
+  
