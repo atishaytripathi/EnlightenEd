@@ -107,7 +107,9 @@ const Footer = () => {
                 window.open('https://www.linkedin.com/in/atishaytripathi/','_blank', 'noopener,noreferrer')
               }}>LinkedIn</a></li>
               <li><a href="/">Twitter</a></li>
-              <li><a href="/">Instagram</a></li>
+              <li><a href="/" onClick={()=>{
+                window.open('https://www.instagram.com/atishaytripathi/','_blank', 'noopener,noreferrer')
+              }}>LinkedIn</a></li>
             </ul>
           </div>
           <div className="footer-section">

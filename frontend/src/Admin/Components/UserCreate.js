@@ -45,7 +45,7 @@ function UserCreate() {
     onSubmit: async (values) => {
       try {
         setLoading(true);
-        await axios.post("http://localhost:8000/adminPanel/createCourse", values);
+        await axios.post(`${process.env.REACT_APP_API_BACKEND_URL}/adminPanel/createCourse`, values);
         setLoading(false);
       } catch (error) {
         console.log(error);
